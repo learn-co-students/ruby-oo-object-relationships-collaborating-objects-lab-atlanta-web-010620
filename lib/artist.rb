@@ -35,10 +35,6 @@ class Artist
         else 
             exist[0]
         end 
-
     end
-        
-
-    # This class method should take the name that is passed in (remember, it will be a string), and do one of two things. Find the artist instance that has that name or create one if it doesn't exist. Either way, the return value of the method will be an instance of an artist with the name attribute filled out.
-
+    
 end

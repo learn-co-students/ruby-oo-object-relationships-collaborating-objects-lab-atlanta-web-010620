@@ -12,7 +12,9 @@ class MP3Importer
     end 
 
     def import 
-        self.files.each {|file| Song.new_by_filename(file.split(" - ")[1])}
+        # self.files.each {|file| pp file.split(" - ")}
+        # self.files.each {|file| Song.new_by_filename(file.split(" - ")[1])}
+        self.files.each {|file| Song.new_by_filename(file)}
     end 
     # class variables 
 
